@@ -24,7 +24,7 @@ function Contact() {
             duration: .7,
             y: -200,
             opacity: 0
-        },"-=3")
+        },"-=2")
     })
     return (
         <div>
