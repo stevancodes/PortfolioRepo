@@ -10,19 +10,19 @@ function About() {
     const aboutimg = useRef(null);
     useEffect(() => {
         about.from(abouth1.current, {
-            duration: .9,
+            duration: .8,
             skewX: 10,
             x: -400,
             opacity: 0
         },"-=2")
         about.from(abouth2.current, {
-            duration: .9,
+            duration: .7,
             skewX: 10,
             x: -400,
             opacity: 0
         },"-=2.3")
         about.from(abouth3.current, {
-            duration: .9,
+            duration: .6,
             skewX: 10,
             x: -400,
             opacity: 0
