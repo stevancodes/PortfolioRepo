@@ -10,28 +10,28 @@ function About() {
     const aboutimg = useRef(null);
     useEffect(() => {
         about.from(abouth1.current, {
-            duration: .8,
+            duration: .9,
             skewX: 10,
             x: -400,
             opacity: 0
         },"-=2")
         about.from(abouth2.current, {
-            duration: .7,
+            duration: .9,
             skewX: 10,
             x: -400,
             opacity: 0
         },"-=2.3")
         about.from(abouth3.current, {
-            duration: .6,
+            duration: .9,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=2.5")
+        },"-=2.8")
         about.from(aboutimg.current, {
-            duration: .3,
+            duration: .7,
             y: -200,
             opacity: 0
-        },"-=3")
+        },"-=2")
     })
     return (
         <div>
