@@ -118,5 +118,6 @@ span{
     .about-overlay{
         background: url(./Assets/eugene1.jpg) 50% 50% no-repeat;
         background-size: cover;
+        opacity: 0.5;
     }
 }
