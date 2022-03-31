@@ -22,16 +22,16 @@ function Home() {
             opacity: 0,
         },"-=2.3")
         home.from(homeh3.current, {
-            duration: .7,
+            duration: .6,
             skewX: 10,
             x: -400,
             opacity: 0,
-        },"-=2.5")
+        },"-=2.8")
         home.from(homeimg.current, {
             duration: .3,
             y: -200,
             opacity: 0
-        },"-=3")
+        },"-=2")
     })
     return (
         <div>
