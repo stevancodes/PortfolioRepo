@@ -22,7 +22,7 @@ function Home() {
             opacity: 0,
         },"-=2.3")
         home.from(homeh3.current, {
-            duration: .6,
+            duration: .7,
             skewX: 10,
             x: -400,
             opacity: 0,
