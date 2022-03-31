@@ -71,9 +71,9 @@ span{
         color: white;
         font-size: 20px;
         text-transform: uppercase;
-        /* position: relative;
-        top: 50px; */
-        margin: 0 40px;
+        position: relative;
+        top: 70px;
+        margin: 30px 40px;
 
     
     }
