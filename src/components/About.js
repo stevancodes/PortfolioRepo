@@ -10,23 +10,23 @@ function About() {
     const aboutimg = useRef(null);
     useEffect(() => {
         about.from(abouth1.current, {
-            duration: .6,
+            duration: .8,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=3.5")
+        },"-=2")
         about.from(abouth2.current, {
-            duration: .6,
+            duration: .7,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=3")
+        },"-=2.3")
         about.from(abouth3.current, {
             duration: .6,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=2.8")
+        },"-=2.5")
         about.from(aboutimg.current, {
             duration: .3,
             y: -200,
@@ -39,9 +39,9 @@ function About() {
             <div className="about-image about-overlay" ref={aboutimg}></div>
             <div className="container-about">
                 <p className="paragraph1" ref={abouth1}>I'm a 22 year-old front-end Web Developer <br/>from <span>Serbia.</span><br/> I have a passion for creating fast loading, dynamic, and responsive websites using the latest technologies available.</p>
-                <div className="paragraph-flex" ref={abouth2}>
-                <p className="paragraph2">Technologies & Tools that I use:</p>
-                <p className="paragraph3">HTML5 CSS3 React JavaScript</p>
+                <div className="paragraph-flex">
+                <p className="paragraph2" ref={abouth2}>Technologies & Tools that I use:</p>
+                <p className="paragraph3" ref={abouth3}>HTML5 CSS3 React JavaScript</p>
                 </div>
             </div>
         </div>

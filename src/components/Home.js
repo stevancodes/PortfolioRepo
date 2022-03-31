@@ -10,23 +10,23 @@ function Home() {
     const homeimg = useRef(null);
     useEffect(() => {
         home.from(homeh1.current, {
-            duration: .6,
+            duration: .8,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=3.5")
+        },"-=2")
         home.from(homeh2.current, {
-            duration: .6,
+            duration: .7,
             skewX: 10,
             x: -400,
             opacity: 0,
-        },"-=3")
+        },"-=2.3")
         home.from(homeh3.current, {
             duration: .6,
             skewX: 10,
             x: -400,
             opacity: 0,
-        },"-=2.8")
+        },"-=2.5")
         home.from(homeimg.current, {
             duration: .3,
             y: -200,
