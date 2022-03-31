@@ -28,7 +28,7 @@ function Home() {
             opacity: 0,
         },"-=2.8")
         home.from(homeimg.current, {
-            duration: .5,
+            duration: .3,
             y: -200,
             opacity: 0
         },"-=3")

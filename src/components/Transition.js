@@ -5,9 +5,9 @@ function Transition({timeline}) {
     const trans = useRef(null);
     useEffect(() => {
         timeline.to(trans.current, {
-            duration: 4,
-            x: 2500,
-            ease: Power4.easeOut
+            duration: 3.5,
+            x: 2000,
+            ease: Power4.easeInOut
         });
     })
     return (

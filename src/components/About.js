@@ -28,7 +28,7 @@ function About() {
             opacity: 0
         },"-=2.8")
         about.from(aboutimg.current, {
-            duration: .5,
+            duration: .3,
             y: -200,
             opacity: 0
         },"-=3")

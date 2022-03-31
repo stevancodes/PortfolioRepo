@@ -14,7 +14,7 @@ function Contact() {
             opacity: 0
         },"-=3.5")
         contact.from(contactimg.current, {
-            duration: .5,
+            duration: .3,
             y: -200,
             opacity: 0
         },"-=3")
