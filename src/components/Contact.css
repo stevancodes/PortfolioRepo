@@ -38,8 +38,9 @@
     background-color: yellow;
 }
 .contact-overlay{
-    background: url(./Assets/ipaul4.jpg) 50% 50% no-repeat;
+    background: url(./Assets/paul4.jpg) 50% 50% no-repeat;
     background-size: cover;
+    opacity: 0.5;
 }
 
 
