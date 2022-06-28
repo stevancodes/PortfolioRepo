@@ -19,7 +19,7 @@ function Contact() {
             skewX: 10,
             x: -400,
             opacity: 0
-        }, "-=2")
+        }, "-=2 ")
         contact.from(contactimg.current, {
             duration: .7,
             y: -200,
