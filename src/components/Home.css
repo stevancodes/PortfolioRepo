@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
-.container-home{
+
+.container-home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,44 +9,49 @@
     position: absolute;
     top: 40px;
 }
-.container-home h1{
+
+.container-home h1 {
     font-family: 'Darker Grotesque', sans-serif;
     color: rgb(161, 0, 0);
-    font-size: 100px;
+    font-size: 8vw;
     text-transform: uppercase;
 
 }
-.container-home h2{
+
+.container-home h2 {
     font-family: 'Darker Grotesque', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 5vw;
     text-transform: uppercase;
     position: relative;
     bottom: 80px;
     font-weight: lighter;
     font-style: italic;
 }
-.container-home h3{
+
+.container-home h3 {
     font-family: 'Darker Grotesque', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 3vw;
     text-transform: uppercase;
     position: relative;
     bottom: -70px;
     font-weight: lighter;
     font-style: italic;
 }
-.home-image{
+
+.home-image {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
     overflow: hidden;
     background-color: yellow;
 }
-.home-overlay{
+
+.home-overlay {
     background: url(./Assets/paul3.jpg) no-repeat;
     background-size: cover;
     opacity: 0.4;
@@ -53,7 +59,7 @@
 
 
 @media screen and (max-width: 768px) {
-    .container-home{
+    .container-home {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -62,7 +68,8 @@
         position: absolute;
         top: 10px;
     }
-    .container-home h1{
+
+    .container-home h1 {
         font-family: 'Darker Grotesque', sans-serif;
         color: rgb(161, 0, 0);
         font-size: 80px;
@@ -71,9 +78,10 @@
         position: relative;
         left: 40px;
         word-spacing: 1px;
-    
+
     }
-    .container-home h2{
+
+    .container-home h2 {
         font-family: 'Darker Grotesque', sans-serif;
         color: white;
         font-size: 60px;
@@ -83,10 +91,10 @@
         left: 60px;
         font-weight: lighter;
         font-style: italic;
-        
+
     }
 
-    .container-home h3{
+    .container-home h3 {
         font-family: 'Darker Grotesque', sans-serif;
         color: white;
         font-size: 30px;
@@ -96,10 +104,10 @@
         left: -50px;
         font-weight: lighter;
         font-style: italic;
-        
+
     }
 
-    .home-image{
+    .home-image {
         position: absolute;
         /* top: 50%;
         left: 50%; */
@@ -109,15 +117,16 @@
         overflow: hidden;
         background-color: yellow;
     }
-    .home-overlay{
+
+    .home-overlay {
         background: url(./Assets/paul3.jpg) 50% 50% no-repeat;
         background-size: cover;
         opacity: 0.4;
     }
 }
 
-@media screen and (max-height: 570px){
-    .container-home{
+@media screen and (max-height: 570px) {
+    .container-home {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -126,7 +135,8 @@
         position: absolute;
         top: 10px;
     }
-    .container-home h1{
+
+    .container-home h1 {
         font-family: 'Darker Grotesque', sans-serif;
         color: rgb(161, 0, 0);
         font-size: 50px;
@@ -134,9 +144,10 @@
         position: relative;
         left: 40px;
         word-spacing: 1px;
-    
+
     }
-    .container-home h2{
+
+    .container-home h2 {
         font-family: 'Darker Grotesque', sans-serif;
         color: white;
         font-size: 40px;
@@ -146,10 +157,10 @@
         left: 60px;
         font-weight: lighter;
         font-style: italic;
-        
+
     }
 
-    .container-home h3{
+    .container-home h3 {
         font-family: 'Darker Grotesque', sans-serif;
         color: white;
         font-size: 30px;
@@ -159,10 +170,10 @@
         left: -50px;
         font-weight: lighter;
         font-style: italic;
-        
+
     }
 
-    .home-image{
+    .home-image {
         position: absolute;
         /* top: 50%;
         left: 50%; */
@@ -172,7 +183,8 @@
         overflow: hidden;
         background-color: yellow;
     }
-    .home-overlay{
+
+    .home-overlay {
         background: url(./Assets/paul3.jpg) 50% 50% no-repeat;
         background-size: cover;
         opacity: 0.4;

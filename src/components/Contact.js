@@ -13,22 +13,22 @@ function Contact() {
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=2.5")
+        }, "-=1.5")
         contact.from(contacth2.current, {
             duration: .9,
             skewX: 10,
             x: -400,
             opacity: 0
-        },"-=2")
+        }, "-=2")
         contact.from(contactimg.current, {
             duration: .7,
             y: -200,
             opacity: 0
-        },"-=2")
+        }, "-=2")
     })
     return (
         <div>
-        <Transition timeline={contact} />
+            <Transition timeline={contact} />
             <div className="contact-image contact-overlay" ref={contactimg}></div>
             <div className="container-contact">
                 <h1 ref={contacth1}>Contact me via email</h1>
