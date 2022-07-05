@@ -1,12 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Projects.css'
 import gsap from 'gsap';
-import image1 from "./Assets/projectone.jpg"
-import image2 from "./Assets/projecttwo.jpg"
-import image3 from "./Assets/projectthree.jpg"
-import image4 from "./Assets/projectfour.jpg"
-import image5 from "./Assets/projectfive.jpg"
-import image6 from "./Assets/projectsix.jpg"
 import Transition from './Transition';
 function Projects() {
   const projects = gsap.timeline();
