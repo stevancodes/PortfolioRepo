@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    margin-top: 30px;
+    margin-top: 7vh;
 }
 
 .header .logo {
@@ -37,6 +38,7 @@ body {
     list-style: none;
     text-align: right;
     margin-right: 30px;
+    /* margin-top: 20px; */
 }
 
 .header ul li .link {
@@ -136,4 +138,18 @@ body {
     }
 
 
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: absolute;
+        display: flex;
+        height: 150px;
+        width: 100%;
+        z-index: 10000;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        margin: 0;
+    }
 }

@@ -1,13 +1,14 @@
 import './App.css';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
 } from "react-router-dom";
 import Home from './components/Home';
 import Contact from './components/Contact'
 import About from './components/About'
+import Projects from './components/Projects';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,9 @@ function App() {
               <Link className="link" to="/">Home</Link>
             </li>
             <li>
+              <Link className="link" to="/projects">Projects</Link>
+            </li>
+            <li>
               <Link className="link" to="/about">About</Link>
             </li>
             <li>
@@ -29,14 +33,18 @@ function App() {
           </ul>
         </div>
         <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+
           <Route path="/about">
             <About />
           </Route>
-          
+
           <Route path="/contact">
             <Contact />
           </Route>
-          
+
           <Route path="/">
             <Home />
           </Route>

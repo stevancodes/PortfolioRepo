@@ -14,7 +14,7 @@
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 10px;
 
 
 }
@@ -33,9 +33,9 @@ span {
     margin-top: 30px;
 }
 
-.paragraph3 {
+/* .paragraph3 {
     margin-left: 10px;
-}
+} */
 
 
 .about-image {
@@ -98,7 +98,7 @@ span {
         position: relative;
         top: 60px;
         font-size: 15px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-right: 20px;
     }
 
