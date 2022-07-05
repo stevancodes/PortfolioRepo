@@ -121,13 +121,13 @@
     }
 
     .container-project img {
-        height: 17vh;
+        height: 15vh;
 
     }
 
     .container-project div {
-        height: 17vh;
-        width: 17vh;
+        height: 15vh;
+        width: 15vh;
         background-image: url(./Assets/projectimg.jpg);
         background-size: cover;
         padding: 2vh;
